@@ -130,9 +130,10 @@ hr {
 } */
 
 .header {
-  background-color: #e5f3f7;
-  margin-top: -150px;
   height: 400px;
+  margin: 0;
+  position: relative;
+  background-color: #e5f3f7;
 }
 
 .hello {
