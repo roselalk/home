@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Dancing+Script:wght@400;500;600;700&family=Indie+Flower&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+  <title></title>
+</head>
+
+<body>
+
+  <div class="cookingDiv">
+
+
+
+    <div class="header">
+      <div class="navbar">
+        <a class="nav" href="portfolio.html">Portfolio</a>
+      <a class="nav" href="mailto:roselalk@outlook.com">Contact</a>
+      </div>
+
+      <a href="games.html">
+        <h1 class="portfolio">Games</h1>
+      </a>
+
+
+      <img class="portfolio-right-cloud" src="images/cloud.png" alt="">
+      <img class="portfolio-left-cloud" src="images/cloud.png" alt="">
+      <a href="index.html"><img class="girlicon" src="images/girlicon.png" alt=""></a>
+
+    </div>
+
+    <img id="whisk" src="images/whisk.png" alt="">
+
+    <img id="chefhat" src="images/chefhat.png" alt="">
+
+    <h1 class="cookingH1">Cooking Calculator</h1>
+    <h3 class="cookingH3">What would you like to convert?</h3>
+
+    <button class="cookingButton" type="button" id="tempButton" onclick="displayTemp()">Temperature</button>
+    <button class="cookingButton" type="button" id="weightButton" onclick="displayWeight()">Weight</button>
+    <button class="cookingButton" type="button" id="fluidButton" onclick="displayFluid()">Fluid</button>
+    <button class="cookingButton" type="button" id="cupButton" onclick="displayCup()">Cups</button>
+
+    <div id="temp-div">
+      <p>Fahrenheit to Celcius</p>
+      <input class="cookingInput" type="text" id="fahrenheit" placeholder="Degrees Fahrenheit">
+      <button class="cookingButton" type="button" id="fahButton" onclick="fahrenheitCelcius()">Calculate Celcius</button>
+
+      <p>Celcius to Fahrenheit</p>
+      <input class="cookingInput" type="text" id="celcius" placeholder="Degrees Celcius">
+      <button class="cookingButton" type="button" id="celButton" onclick="celciusFahrenheit()">Calculate Fahrenheit</button>
+    </div>
+
+    <div id="weight-div">
+      <p>Lbs to Grams</p>
+      <input class="cookingInput" type="text" id="lbs" placeholder="Lbs">
+      <button class="cookingButton" type="button" id="lbsButton" onclick="lbsGram()">Calculate Grams</button>
+
+      <p>Grams to Lbs</p>
+      <input class="cookingInput" type="text" id="gram" placeholder="Grams">
+      <button class="cookingButton" type="button" id="gramButton" onclick="gramLbs()">Calculate Lbs</button>
+    </div>
+
+    <div id="fluid-div">
+      <p>US Fluid Ounce to Milliliters</p>
+      <input class="cookingInput" type="text" id="ounce" placeholder="Ounces">
+      <button class="cookingButton" type="button" id="ounceButton" onclick="ounceMl()">Calculate Milliliters</button>
+
+      <p>Milliliters to US Fluid Ounces</p>
+      <input class="cookingInput" type="text" id="ml" placeholder="Milliliters">
+      <button class="cookingButton" type="button" id="mlButton" onclick="mlOunce()">Calculate US Fluid Ounces</button>
+    </div>
+
+    <div id="cup-div">
+      <p>What kind of product are you measuring?</p>
+
+      <p>Butter</p>
+      <input class="cookingInput" type="text" id="butter" placeholder="Cups of butter">
+      <button class="cookingButton" type="button" id="butterButton" onclick="butterCup()">Calculate cups to grams</button>
+
+      <p>Flour</p>
+      <input class="cookingInput" type="text" id="flour" placeholder="Cups of flour">
+      <button class="cookingButton" type="button" id="flourButton" onclick="flourCup()">Calculate cups to grams</button>
+
+      <p>Sugar</p>
+      <input class="cookingInput" type="text" id="sugar" placeholder="Cups of sugar">
+      <button class="cookingButton" type="button" id="sugarButton" onclick="sugarCup()">Calculate cups to grams</button>
+
+      <p>Milk/water/other thin fluids</p>
+      <input class="cookingInput" type="text" id="milk" placeholder="Cups of fluid">
+      <button class="cookingButton" type="button" id="milkButton" onclick="milkCup()">Calculate cups to milliliters</button>
+
+    </div>
+
+  </div>
+
+  <div class="bottom-container">
+    <p class="copyright">© 2022 Rose Lalk.</p>
+  </div>
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

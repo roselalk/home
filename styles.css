@@ -1,3 +1,5 @@
+/* General */
+
 a {
   color: #afcdd4;
   text-decoration: none;
@@ -21,9 +23,6 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 5.5rem;
   font-weight: lighter;
-  /* font-family: 'Dawning of a New Day', cursive;
-  font-size: 7rem;
-  font-weight: 600; */
   line-height: 1.5;
   color: #658a95;
 }
@@ -48,7 +47,48 @@ hr {
   margin: 70px auto 70px auto;
 }
 
+.footerlink {
+  color: #8bb4be;
+  padding: 0 5px 0 5px;
+  text-decoration: none;
+}
 
+.footerlink:hover {
+  color: #e5f3f7;
+}
+
+.copyright {
+  font-size: 0.8em;
+}
+
+.girlicon {
+  width: 100px;
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  border-radius: 50%;
+}
+
+.navbar {
+  position: absolute;
+  top: 70px;
+  right: 200px;
+  word-spacing: 50px;
+}
+
+.nav:link {
+  text-decoration: none;
+}
+
+.nav:hover {
+  color: #8bb4be;
+}
+
+
+
+
+
+/* Home page */
 .bottom-container {
   background-color: #d2e4e8;
   padding-top: 25px;
@@ -83,48 +123,14 @@ hr {
   text-decoration: none;
 }
 
-.copyright {
-  font-size: 0.8em;
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
 }
-
-.first-website {
-  border: solid;
-  border-width: 3px;
-  border-color: #afcdd4;
-  margin: 0 auto 30px auto;
-  width: 94%;
-}
-
-.footerlink {
-  color: #8bb4be;
-  padding: 0 5px 0 5px;
-  text-decoration: none;
-}
-
-.footerlink:hover {
-  color: #e5f3f7;
-}
-
-.girlicon {
-  width: 100px;
-  position: absolute;
-  left: 200px;
-  top: 50px;
-  border-radius: 50%;
-}
-
-.header {
-  margin: 0;
-  position: relative;
-  padding-top: 5px;
-  padding-bottom: 70px;
-  background-color: #e5f3f7;
-}
-
 .hello {
   margin-top: 10px;
 }
-
 
 .left-cloud {
   position: absolute;
@@ -143,20 +149,157 @@ hr {
   top: 80px;
 }
 
-.navbar {
+.picture {
+  height: 200px;
+  border-radius: 50%;
+  margin: 70px auto 0 auto;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+.program-icon {
+  width: 25%;
+  float: left;
+  margin: auto 30px auto auto;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.subtitle {
+  font-family: "Montserrat", sans-serif;
+  color: #658a95;
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.right-cloud {
   position: absolute;
-  top: 70px;
-  right: 200px;
-  word-spacing: 50px;
+  top: 110px;
+  right: 130px;
+  height: 200px;
+}
+
+.top-container {
+  margin: 0;
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 70px;
+  background-color: #e5f3f7;
+}
+
+.uitsmijter {
+  margin-bottom: 40px;
 }
 
 
-.nav:hover {
-  color: #8bb4be;
+
+
+
+/* Dice Game */
+
+.dice{
+  text-align: center;
+  display: inline-block;
 }
 
-.nav:link {
-  text-decoration: none;
+
+.dicegame-h1{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+
+
+/* Header - non-Home pages */
+
+.header {
+  margin: 0;
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 70px;
+  background-color: #e5f3f7;
+}
+
+.portfolio {
+  position: relative;
+  top: 0;
+  letter-spacing: 3px;
+  color: #658a95;
+}
+
+.portfolio-right-cloud {
+  position: absolute;
+  left: 100px;
+  top: 160px;
+  height: 200px;
+}
+
+.portfolio-left-cloud {
+  position: absolute;
+  right: 100px;
+  top: 80px;
+  height: 200px;
+}
+
+
+
+
+
+
+
+/* Portfolio */
+
+.gamesOverview {
+  height: 450px;
+  width: 500px;
+  padding: 60px;
+  float: right;
+}
+
+.gamesOverview img {
+  height: 100%;
+  width: 100%;
+}
+
+.portfolioOverview {
+  height: 450px;
+  width: 500px;
+  padding: 60px;
+  float: left;
+}
+
+.portfolioOverview img {
+  height: 100%;
+  width: 100%;
+}
+
+.portfolioDiv {
+  padding: 100px;
+}
+
+
+
+
+/* Portfolio - Websites */
+
+.first-website {
+  border: solid;
+  border-width: 3px;
+  border-color: #afcdd4;
+  margin: 0 auto 30px auto;
+  width: 94%;
 }
 
 .par1 {
@@ -180,86 +323,240 @@ hr {
   line-height: 2;
 }
 
-.picture {
-  height: 200px;
-  border-radius: 50%;
-  margin: 70px auto 0 auto;
-}
-
 .port-intro {
   width: 75%;
   margin: 20px auto 0 auto;
-}
-
-.portfolio {
-  position: relative;
-  top: 0px;
-  letter-spacing: 3px;
-  color: #658a95;
-}
-
-.portfolio-left-cloud {
-  position: absolute;
-  right: 100px;
-  top: 80px;
-  height: 200px;
-}
-
-.portfolio-right-cloud {
-  position: absolute;
-  left: 100px;
-  top: 160px;
-  height: 200px;
-}
-
-.profile {
-  width: 50%;
-  margin: auto;
-}
-
-.program-icon {
-  width: 25%;
-  float: left;
-  margin: auto 30px auto auto;
-}
-
-.right-cloud {
-  position: absolute;
-  top: 110px;
-  right: 130px;
-  height: 200px;
 }
 
 .second-website {
   width: 94%;
 }
 
-.skill-row {
-  width: 50%;
-  margin: 70px auto 100px auto;
-  text-align: left;
-  line-height: 2;
-}
-
-.subtitle {
-  font-family: "Montserrat", sans-serif;
-  color: #658a95;
-  font-size: 1.2rem;
-  margin-top: 0;
-}
-
 .third-website {
   width: 94%;
 }
 
-.top-container {
-  margin: 0;
-  position: relative;
-  padding-top: 5px;
-  padding-bottom: 70px;
-  background-color: #e5f3f7;
+
+
+
+/* Portfolio - Games */
+
+.cookingCalcPreview {
+  height: 450px;
+  width: 500px;
+  padding: 60px;
+  float: right;
 }
 
-.uitsmijter {
-  margin-bottom: 40px;
+.cookingCalcPreview img {
+  height: 100%;
+  width: 100%;
+}
+
+.diceGamePreview {
+  height: 450px;
+  width: 500px;
+  padding: 60px;
+  float: left;
+}
+
+.diceGamePreview img{
+  height: 100%;
+  width: 100%;
+}
+
+.drumGamePreview {
+  height: 450px;
+  width: 500px;
+  padding: 60px;
+  text-align: center;
+}
+
+.drumGamePreview img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+/* Cooking Calculator */
+#temp-div {
+  display: none;
+}
+
+#weight-div {
+  display: none;
+}
+
+#fluid-div {
+  display: none;
+}
+
+#cup-div {
+  display: none;
+}
+
+.cookingDiv {
+  padding-bottom: 300px;
+  background-color: #ADD8E6;
+}
+
+.cookingH1 {
+  font-family: 'Bungee', cursive;
+  color: #ffb6c1;
+  text-shadow: 2px 2px #ff0000;
+  font-size: 4rem;
+  margin-top: 80px;
+}
+
+.cookingH3 {
+  color: #ffffff;
+}
+
+.cookingButton {
+  background-color: #ffb6c1;
+  color: #ffffff;
+  border: 1px;
+  border-color: #ffffff;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.cookingButton:hover {
+  background-color: #ffffff;
+  color: #ffb6c1;
+}
+
+.cookingInput {
+  width: 120px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius:6px;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+#chefhat {
+  height: 200px;
+  position: absolute;
+  right: 50px;
+}
+
+#whisk {
+  height: 200px;
+  position: absolute;
+  left: 50px;
+}
+
+
+
+
+
+/* Dice Game */
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+
+
+
+
+/* Drum Game */
+.w {
+  background-image: url("images/crash.png");
+}
+
+.a {
+  background-image: url("images/kick.png");
+}
+
+.s {
+  background-image: url("images/snare.png");
+}
+
+.d {
+  background-image: url("images/tom1.png");
+}
+
+.j {
+  background-image: url("images/tom2.png");
+}
+
+.k {
+  background-image: url("images/tom3.png");
+}
+
+.l {
+  background-image: url("images/tom4.png");
+}
+
+.set {
+  padding: 50px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: none;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #A7C7E7;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 30px;
+  background-color: white;
+}
+
+.drumGameDiv {
+  background-color: #ffe1e6;
+  margin: 0;
+}
+
+#drumSubTitle {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  /* text-shadow: 5px 5px white; */
+  margin: 10px;
+}
+
+#title {
+  font-family: 'Lobster', cursive;
+  font-size: 8rem;
+  color: 	white;
+  /* text-shadow: 5px 5px white; */
+  margin: 0px;
+  padding: 50px
 }
